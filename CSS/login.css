@@ -1,0 +1,72 @@
+body{
+	margin-top: 10px;
+}
+.header {
+		background: #fff;
+		width: 100%;
+		height: 50px;
+}
+.header	.header-con{
+			width: 1200px;
+			height: 50px;
+			margin: 0 auto;
+			
+			font-size: 52px;
+			font-family: "黑体";
+			color: #CECEBF;
+}
+.main{
+	width: 100%;
+	height: 560px;
+	/*background-color: #CECEBF;*/
+	/*background-image: url(./images/login/bg.jpg);*/
+	position: relative;
+}
+.main .bg{
+	position: absolute;
+}
+.main .main-con{
+	width: 360px;
+	height: 420px;
+	background-color: #fff;
+	position: absolute;
+	right: 22%;
+	top: 13%;
+	border: 1px solid #CECEBF;
+}
+.main .main-con .headline{
+	height: 75px;
+	font-size: 26px;
+	font-weight: bold;
+	color: #9797A6;
+	text-align: center;
+	line-height: 75px;
+	border: 1px solid #EEEEEE;
+}
+.main .main-con .form input{
+		border: 1px solid #DDDDDD;
+	width: 290px;
+	height: 34px;
+	margin: 15px 25px 20px;
+	font-size: 20px;
+	padding-left: 30px;
+
+}
+.main .main-con .reg{
+	width: 360px;
+	text-align: center;
+
+
+}
+.main .main-con .reg a{
+		color: #000;
+}
+.main .main-con .reg a:hover{
+	color: #FF7A4D;
+}
+.footer p{
+	text-align: center;
+	font-size: 14px;
+	padding-top: 15px;
+}
+		

@@ -1,0 +1,41 @@
+
+.content .main .nav ul{
+	border: 1px solid #CACAD9;
+	margin: 10px auto;
+}
+.content .main .nav ul li{
+	display: inline-block;
+	
+	width: 100px;
+	height: 35px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+	border-right: 1px solid #CACAD9;
+}
+.content .main .nav ul li:hover{
+	color: #FF7A4D;
+}
+.content .main #show{
+	border-bottom: 1px solid #D2364C;
+	/*text-align: center;*/
+	
+}
+.content .main #show div{
+	width: 250px;
+	height: 300px;
+	display: inline-block;
+	margin: 10px 20px;
+	border: 1px solid #CACAD9;
+	text-align: center;
+	cursor: pointer;
+}
+.content .main #show div:hover{
+	border: 1px solid red;
+}
+.content .main #show span{
+	color: red;
+}
+.footer p{
+	text-align: center;
+}

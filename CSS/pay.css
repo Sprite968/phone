@@ -1,0 +1,80 @@
+.content .main{
+	text-align: center;
+}
+.content .main div{
+	display: inline-block;
+	width: 150px;
+	height: 50px;
+	position: relative;
+	top: 100px;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	margin: 0 50px;
+}
+#wechat{
+			background-color: #09BB07;
+}
+#alipay{
+			background-color: #4E8BD6;
+}
+#add{
+			position: absolute;
+			visibility: hidden;
+			top: 0px;
+			left: 0px;
+			background-color: #A8A8B7;
+			opacity: 0.5;
+			width: 100%;
+			height: 100%;
+}
+#addPro{
+
+	visibility: hidden;
+	opacity: 2;
+	position: fixed;
+	top: 6%;
+	left: 38%;
+	width: 460px;
+	height: 650px;
+	background-color: #fff;
+}
+#addPro .headline{
+	width: 420px;
+	height: 50px;
+	background-color: #ECECFB;
+	line-height: 50px;
+	/*text-align: center;*/
+	padding: 0 20px;
+	font-size: 18px;
+}
+#addPro .headline #close{
+	cursor: pointer;
+}
+#addPro .addMassage span{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background-color: #FF7A4D;
+	color: #fff;
+	line-height: 40px;
+	margin: 0 65px;
+	cursor: pointer;
+}
+#addPro .addMassage a{
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	background-color: #FF7A4D;
+	color: #fff;
+	line-height: 40px;
+	margin: 0 65px;
+	cursor: pointer;
+}
+#image{
+	
+	margin-left: 13px;
+}

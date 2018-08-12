@@ -1,0 +1,96 @@
+
+.bg{
+	position: absolute;
+	top: 20%;
+	right: 100px;
+}
+.main{
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	position: relative;
+	background: #fff;
+}
+.main .header{
+	
+	font-size: 30px;
+	font-family: "黑体";
+
+}
+.main .header span{
+	border-right: 1px solid #000;
+	padding-right: 30px;
+	padding-left: 15px;
+}
+.main .header img{
+	vertical-align: middle;
+	height: 80px;
+	width: 80px;
+}
+.main .body{
+	width: 900px;
+	height: 400px;
+	margin: 0 auto;
+	border-top: 1px solid #F1F1F1;
+	margin: 30px auto;
+	position: relative;
+}
+.main .body form{
+	position: absolute;
+	left: 20px;
+}
+.main .body ul li{
+
+	font-size: 25px;
+	margin: 40px 0px ;
+	color: #9797A6;
+}
+.main .body ul li span{
+	color: red;
+	
+}
+.main .body ul li input{
+	display: inline-block;
+	width: 280px;
+	height: 35px;
+	border: 1px solid #CACAD9;
+	vertical-align:middle;
+	font-size: 20px;
+	padding-left: 8px;
+}
+.main .body ul li div{
+	display: inline-block;
+	color: red;
+	font-size: 15px;
+}
+.main .body ul .agree{
+	font-size: 16px;
+	margin-top: -25px;
+}
+.main .body ul .agree input{
+	height: 16px;
+	width: 16px;
+
+}
+.main .body ul li a{
+	display: inline-block;
+	width:430px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background: #A8A8B7;
+	color: #fff;
+	font-family: "黑体";
+}
+ .main .body .denglu{
+	position: absolute;
+	top: -30px;
+	right: 20px;
+}
+.main .body .desc{
+	position: absolute;
+	width: 16px;
+	height: 250px;
+	top:35px;
+	right: 30px;
+}

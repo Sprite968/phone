@@ -1,0 +1,74 @@
+.content .main{
+	margin-top: 20px;
+}
+.content .main .left-aera{
+	width: 450px;
+	display: inline-block;
+	border:  1px solid #DBDBEA;
+	vertical-align: top;
+}
+.content .main .smallbox{
+	display: inline-block;
+	margin-left: 10px;
+}
+.content .main .smallbox ul li{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin:10px;
+	border: 1px solid #DBDBEA;
+	cursor: pointer;
+}
+.content .main .smallbox ul li:hover{
+	border: 1px solid red;
+}
+.content .main .smallbox ul li img{
+	width: 60px;
+	height: 60px;
+}
+.content .main .right-aera{
+	display: inline-block;
+	margin-left: 30px;
+	width: 640px;
+	height: 340px;
+}
+
+.content .main .right-aera #desc{
+	font-size: 25px;
+
+}
+.content .main .right-aera #price{
+	color: red;
+	font-size: 28px;
+	display: inline-block;
+}
+.content .main .right-aera .buy{
+	background-color: #ECECFB;
+	padding: 10px;
+}
+.content .main .right-aera #inventory{
+	display: inline-block;
+}
+.content .main .right-aera input{
+	width: 80px;
+}
+.content .main .right-aera #add-cart{
+	width: 200px;
+	height: 50px;
+	color: #fff;
+	background-color: #D2373F;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.content .detail{
+	width: 1200px;
+	margin: 20px auto;
+	border-top:  1px solid #DBDBEA;
+}.content .detail img{
+	margin-left:300px;
+	display: block;
+}

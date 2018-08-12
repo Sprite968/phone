@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>cart</title>
+	<link rel="stylesheet" type="text/css" href="CSS/initialization.css">
+	<link rel="stylesheet" type="text/css" href="CSS/head.css">
+	<link rel="stylesheet" type="text/css" href="CSS/cart.css">
+</head>
+<body>
+	<div class="top">
+		<div class="left fl">
+			<ul>
+				<li><a href="login.html">亲，请登录</a></li>
+				<li><a href="register.html">免费注册</a></li>
+			</ul>
+		</div>
+		<div class="right fr">
+			<ul>
+				<li><a href="index.html">商城首页</a></li>
+				<li><a href="personalCenter.html">👤个人中心</a></li>
+				<li><a href="cart.html">🛒购物车</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header">
+		<div class="logo fl">
+			<img src="images/big-logo.png">PHONE
+		</div>
+		<div class="search fr">
+			<form>
+				<input type="text" name="search">
+				<a href="#">搜索</a>
+			</form>
+		</div>
+	</div>
+	<div class="content">
+		<div class="headline">购物车中心</div>
+		<div class="main">
+			<div class="nav">商品列表</div>
+			<table cellspacing="0" ; id="table">
+				<tr>
+					<td style="width: 400px">商品名称</td>
+					<td style="width: 200px">商品价格</td>
+					<td style="width: 200px">购买数量</td>
+					<td style="width: 200px">小计</td>
+					<td style="width: 200px">操作</td>
+				</tr>
+<!-- 				<tr>
+					<td>
+						<img src="images/show/huawei4.jpg"><p>HUAWEI nova 3GB+32GB 移动全网通定制版（皓月银）</p>
+					</td>
+					<td>￥1899.00</td>
+					<td><input type="text" name="" value="1" style="width: 50px;text-align: center;"></td>
+					<td>￥<span>1899.00</span></td>
+					<td>删除</td>
+				</tr> -->
+			</table>
+			<div class="tfoot">
+				购物小计：￥<span>1899.00</span>
+				<span class="fr" style="">清空购物车</span>
+			</div>
+			<div class="account">
+				<button class="fr">结算</button>
+				<button class="fr">继续购物</button>
+				
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="JS/cart.js"></script>
+</html>

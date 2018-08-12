@@ -1,0 +1,146 @@
+.nav{
+			background: #A8A8B7;
+			height: 50px;
+		}
+		.nav-con{
+			width: 1200px;
+			height: 50px;
+			margin: 0 auto;
+		}
+		.nav-con .logo {
+			float: left;
+			font-size: 52px;
+			font-family: "黑体";
+			color: #ECECFB;
+		}
+		.nav-con ul{
+			float: right;
+			
+		}
+		.nav-con ul li{
+			float: left;
+			width: 100px;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			color: #fff
+		}
+		/*.nav-con ul #welcome{
+			width: 150px;
+		}*/
+		.nav-con ul li div{
+			float: left;
+		}
+		.nav-con ul li a{
+			/*display: inline-block;*/
+			/*width: 100px;*/
+			/*height: 50px;*/
+			/*line-height: 50px;*/
+			/*text-align: center;*/
+			margin: 0 10px;
+			color: #fff;
+		}
+		
+		 .con-header{
+			width: 1400px;
+			height: 100px;
+			margin: 0 auto;
+			overflow: hidden;
+
+		}
+		 .con-header .headline{
+			float: left;
+			
+		}
+		 .con-header .headline span{
+			display: inline-block;
+			font-size: 50px;
+			color: #000;
+			font-family:"微软雅黑";
+		
+			line-height:100px;
+			margin-right: 30px;
+			text-align: center;
+		}
+		 .con-header .headline .logo{
+			font-size: 80px;
+		}
+		 .con-header form{
+			float: right;	
+		}
+		 .con-header form input{
+			display: inline-block;
+			font-size: 18px;
+		}
+		 .con-header form .search{
+			width: 400px;
+			height: 40px;
+			margin-top:30px;
+		}
+		 .con-header form .btn{
+			width: 50px;
+			height: 40px;
+		}
+		 #con-body{
+			width: 1400px;
+			height: 500px;
+			margin: 20px auto;
+			overflow: hidden;
+			position: relative;
+		}
+		#con-body ul{
+			position: absolute;
+			width: 8400px;
+			left: 0;
+			top: 0;
+		}
+		#con-body ul li{
+			width: 1400px;
+			height: 500px;
+			float: left;
+		}
+		#con-body ol{
+			position: absolute;
+			left: 45%;
+			bottom:10px;
+		}
+		#con-body ol li{
+			width: 10px;
+			height: 10px;
+			float: left;
+			margin-left: 30px;
+			background-color: #fff;
+		}
+		#con-body #arr{
+			display: none;
+		}
+		#con-body #arr span{
+			position: absolute;
+			width: 40px;
+			height: 40px;
+			left: 5px;
+			top: 50%;
+			background: #000;
+			color: #fff;
+			opacity: 0.3;
+			text-align: center;
+			font-weight: bold;
+			line-height: 40px;
+			margin-top: -20px;
+			font-family: "黑体"
+			font-size:30px;
+			cursor: pointer;
+			border: 1px solid #fff;
+		}
+		#con-body #arr #right{
+			right:5px; 
+			left:auto;
+		}
+		.footer p{
+			display: inline-block;
+			width: 100%;
+			text-align: center;
+			border-top: 1px solid #A8A8B7;
+			font-size: 14px;
+			padding-top: 15px;
+		}

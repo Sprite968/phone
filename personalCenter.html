@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="UTF-8">
+	<title>personalCenter</title>
+	<link rel="stylesheet" type="text/css" href="CSS/initialization.css">
+	<link rel="stylesheet" type="text/css" href="CSS/personalCenter.css">
+	<link rel="stylesheet" type="text/css" href="CSS/head.css">
+</head>
+<body>
+
+	<div class="top">
+		<div class="left fl">
+			<ul>
+				<li><a href="login.html">亲，请登录</a></li>
+				<li><a href="register.html">免费注册</a></li>
+			</ul>
+		</div>
+		<div class="right fr">
+			<ul>
+				<li><a href="index.html">商城首页</a></li>
+				<li><a href="personalCenter.html">👤个人中心</a></li>
+				<li><a href="cart.html">🛒购物车</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="header">
+		<div class="logo fl">
+			<img src="images/big-logo.png">PHONE
+		</div>
+		<div class="search fr">
+			<form>
+				<input type="text" name="search">
+				<a href="#">搜索</a>
+			</form>
+		</div>
+	</div>
+	<div class="content">
+		<div class="headline">个人中心</div>
+		<div class="main">
+			<div class="nav fl">
+				<img src="images/personal/head1.jpg">
+				<ul id="nav">
+					<li><a href="#">个人信息</a></li>
+					<li><a href="#">订单管理</a></li>
+				</ul>
+			</div>
+
+			<div class="show fl">
+				<div class="show-top" id="show-top">个人信息/Personal Information</div>
+				<div class="show-con" >
+					
+					<ul><form action="Information" id="perForm">
+						<li>
+							<img src="images/personal/head1.jpg">
+						</li>
+						<li>
+							用户名： <input type="text" name="userName" value="">
+						</li>
+						<li>
+							密码： <input type="password" name="Psw" value="">
+						</li>
+						<li>
+							支付密码： <input type="password" name="payPsw" value="">
+						</li>
+						<li>
+							收货人： <input type="text" name="receiver" value="" >
+						</li>
+						<li>
+							收货地址： <input type="text" name="address" value="">
+						</li>
+						<li>
+							电话： <input type="text" name="phone" value="">
+						</li>
+						<li>
+							<a href="#" onclick="edit()">确认修改</a>
+						</li>
+					</form>
+					</ul>
+					
+				</div>
+				<div class="show-con" style="display: none;">
+					
+				<div class="main-nav">
+				<ul id="showNav">
+					<li id="noSend" >待付款</li><li id="noSend" >待发货</li><li id="noReceived">待收货</li><li id="succeed">已完成</li>
+				</ul>
+			</div>
+			<div id="order">
+			<div class="admOrder">
+				<div class="orderMessage">
+					订单编号：<span>12345678910</span>
+					联系人：<span>zhou</span>
+					联系电话：<span>15626161645</span><br><br>
+					发货地址：<span>仲恺农业工程学院</span>
+
+				</div>
+				<div class="order">
+					<table cellspacing="0">
+						<tr style="font-weight: 700">
+							<td style="width: 600px">商品名称</td>
+							<td style="width: 150px">商品价格</td>
+							<td style="width: 150px">购买数量</td>
+						</tr>
+						<tr>
+							<td>华为畅享7S 3GB+32GB 全网通标配版（蓝色）</td>
+							<td>1499.00</td>
+							<td>1</td>
+						</tr>
+					</table>
+					<div class="ta"><span class="fl">合计</span><span class="fr">￥1499.00</span></div>
+					<div class="ta"><span class="goSend fr">去支付</span></div>
+				</div>
+			</div>
+		</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script type="text/javascript" src="JS/personalCenter.js"></script>
+</html>

@@ -1,0 +1,130 @@
+body{
+	background-color: #F5F8FA;
+}
+.content .main .nav{
+	background-color: #fff;
+	margin: 30px 10px;
+	text-align: center;
+	width: 170px;
+}
+.content .main .nav img{
+	width: 150px;
+	height: 150px;
+	margin-top: 10px;
+}
+.content .main .nav ul li{
+	margin: 25px auto;
+
+}
+.content .main .nav ul li a{
+	color: #B9B9C8;
+	font-size: 14px;
+	margin: 40px auto;
+
+}
+.content .main .show{
+	width: 990px;
+	margin: 30px 10px;
+	background-color: #fff;
+}
+.content .main .show .show-top{
+	width: 980px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 25px;
+	padding-left: 10px;
+	border-bottom: 1px solid #CACAD9;
+}
+
+.content .main .show .show-con ul li{
+	margin: 30px;
+	width: 750px;
+	text-align: right;
+}
+.content .main .show .show-con ul li img{
+	padding-right: 200px;
+}
+.content .main .show .show-con ul li input{
+	width: 500px;
+	height: 30px;
+	font-size: 25px;
+	background-color: #ECECFB;
+	border: none;
+}
+.content .main .show .show-con ul li a{
+	display: inline-block;
+	width: 80px;
+	height: 30px;
+	background-color: #868695;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+}
+
+
+/*订单管理开始*/
+.show-con .main-nav ul{
+	/*border: 1px solid #CACAD9;*/
+	margin: 10px auto;
+}
+.content .main .show-con .main-nav ul li{
+	display: inline-block;
+	width: 100px;
+	height: 35px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+	border-right: 1px solid #CACAD9;
+	margin: 0;
+	cursor: pointer;
+}
+.show-con .main-nav ul li:hover{
+	color: #FF7A4D;
+}
+.show-con .admOrder{
+	width: 960px;
+	border: 1px solid #A8A8B7;
+	margin: 20px auto;
+}
+.show-con .admOrder .orderMessage span{
+	display: inline-block;
+	width: 200px;
+}
+.show-con .admOrder .orderMessage{
+	padding: 20px;
+	border-bottom: 1px solid #A8A8B7;
+	margin-top: 20px;
+}
+/*.content .main #admOrder .order{
+	border: 1px solid #A8A8B7;
+}*/
+.show-con .admOrder .order table{
+	border-bottom: 1px solid #A8A8B7;
+}
+.show-con .admOrder .order tr td{
+	padding: 10px;
+	border: none;
+	/*border-top:  1px solid #A8A8B7;*/
+}
+.show-con .admOrder .ta{
+	width: 960px;
+	height: 70px;
+	line-height: 50px;
+}
+.show-con .admOrder .ta span{
+	margin: 0 20px;
+}
+.show-con .admOrder .goSend{
+	display: inline-block;
+	width: 100px;
+	height: 50px;
+	margin: 10px 20px;
+	background-color: #FF7A4D;
+	line-height: 50px;
+	text-align: center;
+	color: #fff;
+	border-radius: 5px;
+	cursor: pointer;
+}
+/*订单管理结束*/
+
